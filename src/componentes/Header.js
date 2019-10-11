@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/header.css';
+import Sidenav from './Sidenav';
 
 const Header = () => {
     return ( 
@@ -19,9 +20,7 @@ const Header = () => {
             </nav>
 
             <ul className="sidenav" id="menuResponsive">
-                <li><a href="/">Noticias</a></li>
-                <li><a href="recomendados">Recomendados</a></li>
-                <li><a href="proximos">Proximos</a></li>
+                <Sidenav/>
             </ul>
         </div>
     );
