@@ -11,13 +11,13 @@ class Slider extends Component {
     render() {
         return (
             <div className="container">       
-                <div class="slider">
-                    <ul class="slides">
+                <div className="slider">
+                    <ul className="slides">
                     <li>
                         <img src={img1}/> 
                         <div className="caption center-align">
                         <h3 className="textPrimary">Resident Evil 2</h3>
-                        <h5 class="light text-lighten-3 textPrimary">Delux Edition</h5>
+                        <h5 className="light text-lighten-3 textPrimary">Delux Edition</h5>
                         </div>
                     </li>
                     <li>
