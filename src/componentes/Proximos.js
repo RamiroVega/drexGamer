@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import CardInfo from './CardInfo';
 
 class Proximos extends Component {
-    state = {  }
     render() { 
         return ( 
-            <div className="container"><h2>Desde Proximos</h2></div>
+            <div className="container">
+                 <CardInfo
+                    titulo="Proximamente"
+                />
+            </div>
          );
     }
 }

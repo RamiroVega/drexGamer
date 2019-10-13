@@ -1,11 +1,22 @@
 .prymaryColor{
  background-color: #fb8c00;
 }
-
-
 .textPrimary{
-    color: #d50000;
+    color: #fb8c00;
+}
+.textSecond{
+    color: #ffcc80;
 }
 .redes-sidenav{
     margin-bottom: 10%;
+}
+
+.cardImage {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textTituloCard{
+    color: #000000;
 }
