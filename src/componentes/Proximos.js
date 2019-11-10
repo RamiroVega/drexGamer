@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import CardInfo from './CardInfo';
 
 class Proximos extends Component {
     render() { 
         return ( 
             <div className="container">
-                 <CardInfo
-                    titulo="Proximamente"
-                />
+                <div className="container center"><h2>Proximos</h2></div>
             </div>
          );
     }
