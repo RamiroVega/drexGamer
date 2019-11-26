@@ -20,7 +20,7 @@ class App extends Component {
     let key = `bd6fd3ae9309444b8000fb7bbd1dcddf`;
     let categoria =`popularity`;
     let area =`videojuegos`;
-    let url = `https://newsapi.org/v2/everything?q=${area}&from=2019-10-10&sortBy=${categoria}At&apiKey=${key}`;
+    let url = `https://newsapi.org/v2/everything?q=${area}&from=2019&sortBy=${categoria}At&apiKey=${key}`;
 
     fetch(url)
         .then(respuesta => {
