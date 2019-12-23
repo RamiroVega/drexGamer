@@ -4,6 +4,7 @@ import Noticias from './Noticias';
 import Recomendados from './Recomendados';
 import Proximos from './Proximos';
 import Error from './Error'; 
+import Login from './Login';
 
 class Router extends Component {
     
@@ -20,6 +21,7 @@ class Router extends Component {
                     )}/>
                     <Route path="/recomendados"  exact component={Recomendados}></Route>
                     <Route path="/proximos"  exact component={Proximos}></Route>
+                    <Route path="/login"  exact component={Login}></Route>
                     <Route component={Error}/>
                 </Switch>
 

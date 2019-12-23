@@ -17,7 +17,7 @@ class CardInfo extends Component {
         return (
             
                 <div className="col s12 m12 l4">                    
-                    <div className="card hoverable">  
+                    <div className="card cardNoti hoverable">  
                         <div className="card-image">                        
                             <img src={urlToImage}  onError = {this.onError} alt=""/>
                             <a href={url} className="btn-floating halfway-fab waves-effect waves-light red"><i className="fas fa-book-open"></i></a>                           

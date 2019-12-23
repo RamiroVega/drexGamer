@@ -11,6 +11,7 @@
     margin-bottom: 10%;
 }
 
+/*--------------Componente CardInfo------------------------*/
 .cardImage {
   display: block;
   margin-left: auto;
@@ -21,7 +22,7 @@
     color: #000000;
 }
 /*Defino el tamaño de los cards*/
-.card{    
+.cardNoti{    
     height: 43em; 
             
 }
@@ -32,3 +33,11 @@
     overflow: hidden;
     text-align: justify;    
 }
+/*-----------Fin Componente CardInfo--------------*/
+
+/*---------- Componente Login--------------------*/
+/*cambio de color del boton de login*/
+.bton-fb:hover {
+    background-color: #d89838; 
+}
+/*---------------Fin Componente Login---------------------*/
